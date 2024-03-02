@@ -15,7 +15,7 @@ app.get("/cadastrar", function(req, res){
     res.send("Página Cadastro")
 })
 
-app.get("/produtos/:item/:quantidade ", function(req, res){
+app.get("/produtos/:item/:quantidade", function(req, res){
     console.log("Página Produtos")
     res.send("Página de produtos - Item: " + req.params.item + " quantidade " + req.params.quantidade)
 })
@@ -24,3 +24,4 @@ app.get("/contato", function(req, res){
     console.log("Página Contato")
     res.send("Página Contato")
 })
+
